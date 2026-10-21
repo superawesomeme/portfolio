@@ -26,8 +26,8 @@
     empty.hidden = visible !== 0;
     if (!visible) {
       document.querySelector('#empty-title').textContent = tag === 'in-progress'
-        ? 'Nothing in progress to share yet.' : `No ${label.toLowerCase()} projects yet.`;
-      document.querySelector('#empty-description').textContent = 'Check back as the collection grows, or explore the projects already in the hub.';
+        ? 'Something new is always next.' : `No ${label.toLowerCase()} projects yet.`;
+      document.querySelector('#empty-description').textContent = 'Nothing here just yet. There’s plenty to explore in the library.';
     }
   }
 

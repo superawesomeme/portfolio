@@ -1,6 +1,6 @@
 # ShaunHub
 
-An accessible, responsive static showcase of AI-assisted apps and games. Bootstrap 5.3.3 is vendored in `assets/` (its license notice is retained in the CSS). No build step, account, or environment variables are required. A small local JavaScript file powers tag filtering; all projects remain visible without JavaScript.
+A dark, responsive library of apps and games, built with custom CSS and no framework dependencies. The SVG brand mark in `assets/logo.svg` is also the favicon. No build step, account, or environment variables are required. A small local JavaScript file powers tag filtering; all projects remain visible without JavaScript.
 
 ## Run locally
 
@@ -20,4 +20,4 @@ At the domain registrar, configure apex (`@`) A records for `185.199.108.153`, `
 
 ## Add a project
 
-Add a card column inside `#project-grid`. Give the column a `data-project-tags` attribute containing space-separated tags, for example `education in-progress` or `community`. Add matching visible badges to the card. Filters match one selected tag at a time; All projects resets the collection. Education, Games, and Community describe a project’s purpose; In progress can accompany either category. Counts and empty states update automatically.
+Add an `article.app-card` inside `#project-grid`. Give the article a `data-project-tags` attribute containing space-separated tags, for example `education in-progress` or `community`. Add matching visible badges to the card. Filters match one selected tag at a time; All projects resets the collection. Education, Games, and Community describe a project’s purpose; In progress can accompany either category. Counts and empty states update automatically.
