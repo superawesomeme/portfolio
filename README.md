@@ -20,4 +20,4 @@ At the domain registrar, configure apex (`@`) A records for `185.199.108.153`, `
 
 ## Add a project
 
-Add a card column inside `#project-grid`. Give the column a `data-project-tags` attribute containing space-separated tags, for example `education in-progress` or `community`. Add matching visible badges to the card. Filters match one selected tag at a time; All projects resets the collection. Education and Community describe a project’s purpose; In progress can accompany either category. Counts and empty states update automatically.
+Add a card column inside `#project-grid`. Give the column a `data-project-tags` attribute containing space-separated tags, for example `education in-progress` or `community`. Add matching visible badges to the card. Filters match one selected tag at a time; All projects resets the collection. Education, Games, and Community describe a project’s purpose; In progress can accompany either category. Counts and empty states update automatically.
